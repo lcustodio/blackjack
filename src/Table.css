@@ -1,0 +1,21 @@
+.Table {
+  text-align: center;
+  height: 100vh;
+  background-color: #a80808;/*#114610;*/
+  box-shadow: inset 1px 1px 120px 30px rgba(3,3,3,.5);
+
+  color: white;
+}
+
+.Table-header {
+  background-color: #222;
+  padding: 0.3rem;
+}
+
+.Table-title {
+  font-size: 1.5em;
+}
+
+.Table-container {
+  font-size: large;
+}
