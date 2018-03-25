@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Player = () => <div />;
+const Result = () => <div />;
 
-export default Player;
+export default Result;
