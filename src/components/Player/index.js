@@ -4,7 +4,7 @@ import { Hand } from 'react-deck-o-cards';
 const defHandStyle = {
   maxHeight: '30vh',
   minHeight: '30vh',
-  maxWidth: '20vw',
+  maxWidth: '50vw',
   padding: 0
 };
 
@@ -14,14 +14,7 @@ const Player = props => {
   }
   return (
     <div>
-      <Hand cards={props.deck} style={defHandStyle} />
-      {props.isDealer && (
-        <Hand
-          cards={[{ rank: 1, suit: 1 }]}
-          hidden={true}
-          style={defHandStyle}
-        />
-      )}
+      <Hand onClick={() => {}} cards={props.deck} style={defHandStyle} />
     </div>
   );
 };
