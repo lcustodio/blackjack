@@ -1,0 +1,9 @@
+.Result {
+  height: 5rem;
+  background: rgba(255, 255, 255, 0.2);
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

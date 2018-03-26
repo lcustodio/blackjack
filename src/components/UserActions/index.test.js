@@ -30,4 +30,13 @@ describe('Player', () => {
 
     expect(mockCallback.mock.calls.length).toBe(1);
   });
+
+  it('should disable the buttons if someone won the game', () => {
+    const mockCallback = jest.fn();
+
+    const expected = shallow(
+      <UserActions isDisabled={true} handleStick={mockCallback} />
+    );
+    expect(expected.find('.UserActions-stick').html()).toContain('disabled');
+  });
 });
